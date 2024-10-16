@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Contactos</title>
+</head>
+<body>
+    <main>
+        <form method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required><br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+            <button type="submit">Enviar</button><br>
+        </form>
+        <h2>Información de Contacto</h2>
+        <p>Dirección: Av. Juan Pablo II Km. 15, Rio Seco Ciudad: EL Alto, La Paz </p>
+        <p>Telf: (591)(2) 2860011</p>
+        <p>Email: contacto@pilbolivia.com</p>
+        <div>
+            <h2>Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.7064697341225!2d-68.20610842566757!3d-16.49039418425181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915ede3a88800dd5%3A0xa3f4b1d0fdd0746c!2sPIL%20ANDINA!5e0!3m2!1ses-419!2sbo!4v1729111088657!5m2!1ses-419!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+</body>
+</html>

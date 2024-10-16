@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Noticias</title>
+</head>
+<body>
+    <main>
+        <h1>Noticias</h1>
+        <div>
+            <img src="{{ url_for('static', filename='imagenes/noticia1.png') }}" alt="Noticia 1" width="200px">
+            <h2>PIL es reconocida como una de las 30 marcas más poderosas de Bolivia</h2>
+            <p>El Ranking de Marcas de Bolivian Business, en su 17° versión, reconoció el valor de las 30 marcas más poderosas de Bolivia, según una encuesta realizada a 100 marketeros del país que desarrollan actividades en compañías de diferentes rubros y también en agencias de publicidad</p>
+            <p>La evaluación generada por este grupo de expertos en marketing analizó cinco variables: Responsabilidad Social Empresarial, Innovación tecnológica, Lanzamiento de productos, Protección al talento humano y Comunicación externa</p>
+            <p>El evento de premiación se desarrolló en el salón Conquistador, de Los Tajibos, en la ciudad de Santa Cruz y contó con la presencia de ejecutivos de las empresas galardonadas, miembros de la comunidad de “100 marketeros” de Bolivian Business, invitados especiales y representantes de medios de comunicación.</p>
+            <p>En la ocasión, Pil Andina S.A. recibió dos distinciones: “Mejor empresa de lácteos de Bolivia” y “Empresa con los mejores productos para toda la familia”. Nuestra industria estuvo representada por Limberg Daroca, gerente Comercial y Paola Escóbar, subgerente de Marketing-Lácteos</p>
+        </div>
+        <div>
+            <img src="{{ url_for('static', filename='imagenes/noticia2.png') }}" alt="Noticia 2" width="200px">
+            <h2>PIL Andina S.A. ingresa a la era del uso de energía renovable y a la reutilización del agua</h2>
+            <p>La empresa PIL Andina S.A. reafirmó este viernes su compromiso con la sostenibilidad ambiental y social al dar a conocer sus proyectos de implementación de iniciativas innovadoras en sus operaciones. De acuerdo con ejecutivos de la empresa de lácteos y alimentos, desde la llegada a Bolivia del Grupo Gloria en 1996, se apostó por la tecnología, se generó conciencia y se trabajó de manera responsable con el medioambiente.</p>
+            <p>Es así, que Pil Andina S.A., en un esfuerzo por reducir su huella de carbono y contribuir a la protección del medioambiente lleva adelante proyectos ambientales en sus tres plantas industriales en Bolivia, mismos que incluyen el tratamiento de fluyentes, la reducción del consumo de agua, la autogeneración de energía y la transición de equipos de soporte logístico de combustión a eléctricos. </p>
+        </div>
+        <a href="/contactos">Contactos</a>
+    </main>
+</body>
+</html>

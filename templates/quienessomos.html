@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>QUIENES SOMOS</title>
+</head>
+<body>
+<main>
+    <h1>Quiénes Somos</h1>
+    <p>La Planta Industrializadora de Leche (PIL) nació en Cochabamba e inició sus operaciones en 1960 (hace 60 años), con una capacidad inicial de procesar 40 mil litros de leche por día, con tecnología limitada, infraestructura reducida y escasa cartera de productos. En La Paz empezó a operar en 1972 y en Santa Cruz en 1977</p>
+    <h2>Misión</h2>
+    <p>Acompañamos tu desarrollo en cada etapa de la vida con alimentos confiables y saludables, de forma innovadora, en armonía con el medio ambiente.</p>
+    <h2>Visión</h2>
+    <p>Mantener la tradición y el liderazgo en la producción y distribución de productos lácteos y alimentos saludables, compartiendo valor con nuestros clientes, consumidores, proveedores y comunidad, en armonía con el medio ambiente, y asegurando el máximo retorno para nuestros inversionistas.</p>
+    <h2>Equipo de trabajo</h2>
+    <div>
+    <img src="{{ url_for('static', filename='imagenes/miembro1.png') }}" alt="Miembro1 del equipo" width="200px">
+    <p>Maria Perez - Directora General</p>
+    <img src="{{ url_for('static', filename='imagenes/miembro2.png') }}" alt="Miembro2 del equipo" width="200px">
+    <p>Jose Apaza - Director de Marketing</p>
+    </div>
+</main>
+</body>
+</html>
